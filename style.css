@@ -26,6 +26,7 @@ body {
 }
 
 ul {
+  padding: 0;
   list-style: none;
 }
 /*
@@ -65,8 +66,11 @@ h6 {
 html {
   font-size: 62.5%;
 }
+
+/* GENERAL STYLING */
+
 body {
-  margin: 3rem 6rem;
+  margin: 2rem 6rem;
   color: hsl(0, 0%, 100%);
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
@@ -76,7 +80,7 @@ body {
 
 .header {
   font-family: "Poppins", sans-serif;
-  margin-bottom: 6rem;
+  margin-bottom: 2rem;
 }
 
 .header img {
@@ -136,8 +140,8 @@ p {
 
 .social-links {
   display: flex;
-  justify-content: end;
   gap: 1rem;
+  justify-content: end;
 }
 
 .icon {
